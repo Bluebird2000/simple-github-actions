@@ -1,0 +1,9 @@
+name: Simple github action worlflow
+on: [push]
+
+jobs: 
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'A simple github action workflow'
+        run: echo 'This is a simpe github action workflow'
